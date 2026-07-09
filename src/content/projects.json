@@ -1,0 +1,23 @@
+{
+  "personal": [],
+  "academic": [
+    {
+      "id": "cookfinder",
+      "title": "CookFinder",
+      "description": "Full-stack recipe app with REST API communication between an Angular frontend and a Spring Boot backend.",
+      "tags": ["Angular", "Spring Boot", "REST API"]
+    },
+    {
+      "id": "employee-management",
+      "title": "Employee Management Application",
+      "description": "Java application implementing CRUD operations over structured employee data.",
+      "tags": ["Java", "CRUD"]
+    },
+    {
+      "id": "online-bookstore",
+      "title": "Online Bookstore Storage Platform",
+      "description": "Full-stack application for managing bookstore inventory, built with Angular and Spring Boot.",
+      "tags": ["Angular", "Spring Boot"]
+    }
+  ]
+}
