@@ -20,6 +20,11 @@ export function ProjectCard({ project, delay = 0, showMedia = true }) {
             ))}
           </ul>
         )}
+        {project.link && (
+          <a className="cta-button project-link" href={project.link} target="_blank" rel="noreferrer">
+            View on GitHub
+          </a>
+        )}
       </div>
     </Reveal>
   )

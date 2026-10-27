@@ -1,5 +1,19 @@
 {
-  "personal": [],
+  "personal": [
+    {
+      "id": "linkedin-poster",
+      "title": "LinkedIn Poster",
+      "description": "For anyone who cringes at LinkedIn or never gets round to posting: drop your photos, say what happened in your own words, and an LLM turns it into a clean post you can publish without ever opening the feed. Prefer to write it yourself? The LLM is optional.",
+      "tags": ["TypeScript", "React", "Hono", "LLM", "LinkedIn API"],
+      "link": "https://github.com/ChedySalmouna/linkedin-poster",
+      "media": [
+        {
+          "src": "https://raw.githubusercontent.com/ChedySalmouna/linkedin-poster/HEAD/docs/screenshots/compose.jpg",
+          "alt": "LinkedIn Poster compose screen with photos and notes"
+        }
+      ]
+    }
+  ],
   "academic": [
     {
       "id": "cookfinder",

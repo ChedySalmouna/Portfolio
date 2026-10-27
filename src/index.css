@@ -345,6 +345,9 @@ main {
 }
 
 .project-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   padding: 1rem 1.25rem 1.25rem;
 }
 
@@ -364,6 +367,17 @@ main {
   gap: 0.5rem;
   margin: 0;
   padding: 0;
+}
+
+.project-tags:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.project-link {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.88rem;
 }
 
 .project-tags li {
